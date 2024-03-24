@@ -184,5 +184,14 @@ a:link, a:hover, a:visited, a:active {
         display: none;
     }
     
+    /* #21 */
+
+    /* Insert text */
+    .card ul li:nth-child(2)::after {
+        
+        /* Represent emoji */
+        content: "\1F44D";
+        margin-left: 5px; 
+    }
 }
 
